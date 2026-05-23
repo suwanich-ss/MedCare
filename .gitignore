@@ -1,0 +1,16 @@
+# โฟลเดอร์ดาวน์โหลด Library ห้ามเอาขึ้นเด็ดขาดเพราะหนักมาก
+node_modules/
+**/node_modules/
+
+# ไฟล์เก็บความลับ เช่น รหัสผ่านฐานข้อมูล คีย์เชื่อมต่อระบบต่างๆ
+.env
+.env.local
+.env.*.local
+
+# ไฟล์ขยะของระบบปฏิบัติการ (Mac/Windows)
+.DS_Store
+Thumbs.db
+
+# โฟลเดอร์สำหรับ Build/Dist (ถ้ามี)
+dist/
+build/
